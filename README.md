@@ -326,7 +326,7 @@ style.css
     background-color: #f8f8f8;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
 }
-
+```
 ## OUTPUT:
 ![alt text](<harshu/resapp/static/Screenshot (93).png>)
 ![alt text](<harshu/resapp/static/Screenshot (94).png>)
