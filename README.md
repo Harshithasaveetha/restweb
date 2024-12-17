@@ -221,7 +221,7 @@ about.html
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Visves Restaurant</title>
+  <title>Harshitha Restaurant</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -238,7 +238,7 @@ about.html
     <section>
       <h2>Welcome to Harshitha Restaurant</h2>
       <img src="about.jpeg" alt="Restaurant Image" class="about-image">
-      <p>Located in the heart of Chennai, Visves Restaurant offers a memorable dining experience with a focus on high-quality food and exceptional service. Our mission is to provide a wide variety of delicious dishes made from fresh, locally sourced ingredients in a warm and inviting atmosphere.</p>
+      <p>Located in the heart of Chennai, Harshitha Restaurant offers a memorable dining experience with a focus on high-quality food and exceptional service. Our mission is to provide a wide variety of delicious dishes made from fresh, locally sourced ingredients in a warm and inviting atmosphere.</p>
       <p>Whether it's a casual meal or a special occasion, we have something for everyone!</p>
     </section>
   </main>
@@ -254,7 +254,7 @@ about.html
 ```
 ## OUTPUT:
 ![alt text](<harshu/resapp/static/Screenshot (100).png>)
-![alt text](<harshu/resapp/static/Screenshot (101).png>)
+![alt text](<harshu/resapp/static/Screenshot (106).png>)
 ![alt text](<harshu/resapp/static/Screenshot (102).png>)
 ![alt text](<harshu/resapp/static/Screenshot (105).png>)
 ![alt text](<harshu/resapp/static/Screenshot (104).png>)
