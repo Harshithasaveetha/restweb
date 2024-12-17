@@ -1,117 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    .menu-category {
-    margin-top: 40px;
-}
-
-.menu-category h2 {
-    font-size: 28px;
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.dessert-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.dessert-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
-    object-fit: cover;
-    margin-right: 20px;
-}
-
-.dessert-details h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.dessert-details p {
-    font-size: 16px;
-    color: #555;
-    max-width: 300px;
-    margin: 0;
-}
-
-.dessert-item:hover {
-    background-color: #f8f8f8;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
-}
-
-</style>
 <body>
-    <header>
-        <div class="logo">
-            <img src="res.jpeg" alt="Restaurant Logo">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="administration.html">Administration</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="menu">
-        <h1>Our Menu</h1>
-
-        <!-- Dessert Section -->
-        <div class="menu-category">
-            <h2>Desserts</h2>
-            <div class="dessert-item">
-                <img src="ca.jpeg" alt="Chocolate Cake" class="dessert-image">
-                <div class="dessert-details">
-                    <h3>Chocolate Cake</h3>
-                    <p>A rich and moist chocolate cake topped with creamy chocolate ganache.</p>
-                </div>
-            </div>
-            <div class="dessert-item">
-                <img src="d1.jpeg" alt="Cheesecake" class="dessert-image">
-                <div class="dessert-details">
-                    <h3>Cheesecake</h3>
-                    <p>A creamy, tangy cheesecake with a buttery graham cracker crust.</p>
-                </div>
-            </div>
-            <div class="dessert-item">
-                <img src="d3.jpeg" alt="Apple Pie" class="dessert-image">
-                <div class="dessert-details">
-                    <h3>Apple Pie</h3>
-                    <p>A classic dessert made with sweet apples and a flaky pie crust.</p>
-                </div>
-            </div>
-            <div class="dessert-item">
-                <img src="d4.jpeg" alt="Tiramisu" class="dessert-image">
-                <div class="dessert-details">
-                    <h3>Tiramisu</h3>
-                    <p>An Italian dessert made of layered coffee-soaked ladyfingers and mascarpone cheese.</p>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <footer>
-        <p>&copy; Harshitha</p>
-    </footer>
+  <header>
+    <h1>Our Menu</h1>
+    <nav>
+      <a href="index.html">About Me</a>
+      <a href="menu.html">Menu</a>
+      <a href="administration.html">Administration</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+  <main>
+    <img src="res.jpeg" alt="Menu Banner" class="menu-banner">
+    <h2>Delicious Dishes</h2>
+    <div class="menu-grid">
+      <div class="menu-item" onclick="showDetails('cake', 'images/ca.jpg')">
+        <img src="ca.jpeg" alt="cake">
+        <p>cake</p>
+      </div>
+      <div class="menu-item" onclick="showDetails('cheese cake', 'images/d1.jpg')">
+        <img src="d1.jpeg" alt="cheese cake">
+        <p>cheese cake</p>
+      </div>
+      <div class="menu-item" onclick="showDetails('apple pie', 'images/d3.jpg')">
+        <img src="d3.jpeg" alt="apple pie">
+        <p>apple pie</p>
+      </div>
+      <div class="menu-item" onclick="showDetails('tiramisu', 'images/d4.jpg')">
+        <img src="d4.jpeg" alt="tiramisu">
+        <p>tiramisu</p>
+      </div>
+    </div>
+    <div id="food-details" class="food-details">
+      <!-- Food details will display dynamically here -->
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2024 Harshitha</p>
+  </footer>
+  <script>
+    function showDetails(name, imgSrc) {
+      const details = document.getElementById('food-details');
+      details.innerHTML = `
+        <h3>${name}</h3>
+        <img src="${imgSrc}" alt="${name}" style="width:300px; height:auto; margin-top:10px;">
+      `;
+    }
+  </script>
 </body>
 </html>

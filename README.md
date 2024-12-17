@@ -34,89 +34,43 @@ index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Home</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Restaurant</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    .menu-category {
-    margin-top: 40px;
-}
-
-.menu-category h2 {
-    font-size: 28px;
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.dessert-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.dessert-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
-    object-fit: cover;
-    margin-right: 20px;
-}
-
-.dessert-details h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.dessert-details p {
-    font-size: 16px;
-    color: #555;
-    max-width: 300px;
-    margin: 0;
-}
-
-.dessert-item:hover {
-    background-color: #f8f8f8;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
-}
-
-</style>
 <body>
-    <header>
-        <div class="logo">
-            <img src="logo.jpeg" alt="Restaurant Logo">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="administration.html">Administration</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <h1>Harshitha RESTAURANT</h1>
+    <nav>
+      <a href="about.html">About Us</a>
+      <a href="menu.html">Menu</a>
+      <a href="administration.html">Team</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
 
-    <section class="banner">
-        <img src="ban.jpeg" alt="Restaurant Banner">
+  <section id="logo-details">
+    <div class="logo-container">
+      <img src="logo.jpeg" alt="Restaurant Logo" class="restaurant-logo">
+    </div>
+    <div class="restaurant-details">
+      <h2>Welcome to Harshitha  Restaurant</h2>
+      <p>Located in the heart of Chennai, Harshitha Restaurant offers a memorable dining experience with a focus on high-quality food and exceptional service. Our mission is to provide a wide variety of delicious dishes made from fresh, locally sourced ingredients in a warm and inviting atmosphere. Whether it's a casual meal or a special occasion, we have something for everyone!</p>
+    </div>
+  </section>
+
+  <main>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn more about our restaurant and the experience we offer to our customers. Click on the "About Us" link in the navigation to explore more.</p>
     </section>
 
-    <section class="intro">
-        <h1>Welcome to Our Restaurant</h1>
-        <p>Enjoy the finest food and drinks in a cozy environment!</p>
-    </section>
+  </main>
 
-    <footer>
-        <p>&copy; 2024 Harshitha</p>
-    </footer>
+  <footer>
+    <p>&copy; 2024 Harshitha</p>
+  </footer>
 </body>
 </html>
 
@@ -125,108 +79,43 @@ administration.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Administration</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Team - Harshitha Restaurant</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    .menu-category {
-    margin-top: 40px;
-}
-
-.menu-category h2 {
-    font-size: 28px;
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.dessert-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.dessert-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
-    object-fit: cover;
-    margin-right: 20px;
-}
-
-.dessert-details h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.dessert-details p {
-    font-size: 16px;
-    color: #555;
-    max-width: 300px;
-    margin: 0;
-}
-
-.dessert-item:hover {
-    background-color: #f8f8f8;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
-}
-
-</style>
 <body>
-    <header>
-        <div class="logo">
-            <img src="ad.jpeg" alt="Restaurant Logo">
+  <header>
+    <h1>Our Team</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Meet Our Team</h2>
+      <div class="team">
+        <div class="member">
+          <img src="harshu.jpeg" alt="Harshitha - Manager">
+          <p>Harshitha - Manager</p>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="administration.html">Administration</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="administration">
-        <h1>Our Team</h1>
-        <div class="team-member">
-            <img src="harshu.jpeg" alt="Person 1">
-            <p>Harshitha - Manager</p>
+        <div class="member">
+          <img src="s1.jpeg" alt="Jane Smith - Chef">
+          <p>Jane Smith - Chef</p>
         </div>
-        <div class="team-member">
-            <img src="s1.jpeg" alt="Person 2">
-            <p>Jane Smith - chef</p>
+        <div class="member">
+          <img src="s2.jpeg" alt="Sam Lee - Waiter">
+          <p>Sam Lee - Waiter</p>
         </div>
-        <div class="team-member">
-            <img src="s2.jpeg" alt="Person 3">
-            <p>Mark Johnson - Chef</p>
-        </div>
-        <div class="team-member">
-            <img src="s3.jpeg" alt="Person 4">
-            <p>Lucy Brown - Sous Chef</p>
-        </div>
-        <div class="team-member">
-            <img src="s4.jpeg" alt="Person 5">
-            <p>Tom Harris - Waiter</p>
-        </div>
-        <div class="team-member">
-            <img src="s5.jpeg" alt="Person 6">
-            <p>Emma White - Accountant</p>
-        </div>
+      </div>
     </section>
-
-    <footer>
-        <p>&copy; 2024 Harshitha</p>
-    </footer>
+  </main>
+  <footer>
+    <p>&copy; 2024 Harshitha</p>
+  </footer>
 </body>
 </html>
 
@@ -235,87 +124,33 @@ contact.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Harshitha Restaurant</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    .menu-category {
-    margin-top: 40px;
-}
-
-.menu-category h2 {
-    font-size: 28px;
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.dessert-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.dessert-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
-    object-fit: cover;
-    margin-right: 20px;
-}
-
-.dessert-details h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.dessert-details p {
-    font-size: 16px;
-    color: #555;
-    max-width: 300px;
-    margin: 0;
-}
-
-.dessert-item:hover {
-    background-color: #f8f8f8;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
-}
-
-</style>
 <body>
-    <header>
-        <div class="logo">
-            <img src="contact.jpeg" alt="Restaurant Logo">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="administration.html">Administration</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="contact">
-        <h1>Contact Us</h1>
-        <p>Address: 123 Restaurant Street, Food City, FC 12345</p>
-        <p>Phone: (123) 456-7890</p>
-        <p>Email: contact@restaurant.com</p>
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="about.html">About Us</a>
+      <a href="administration.html">Our Team</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Get in Touch</h2>
+      <img src="contact.jpeg" alt="Contact Banner" class="contact-banner">
+      <p>Address: 123 Food Street, Chennai, India</p>
+      <p>Phone: +91 9876543210</p>
+      <p>Email: contact@restaurant.com</p>
     </section>
-
-    <footer>
-        <p>&copy; 2024 Harshitha</p>
-    </footer>
+  </main>
+  <footer>
+    <p>&copy; 2024 Harshitha</p>
+  </footer>
 </body>
 </html>
 
@@ -324,118 +159,58 @@ menu.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    .menu-category {
-    margin-top: 40px;
-}
-
-.menu-category h2 {
-    font-size: 28px;
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.dessert-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.dessert-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
-    object-fit: cover;
-    margin-right: 20px;
-}
-
-.dessert-details h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.dessert-details p {
-    font-size: 16px;
-    color: #555;
-    max-width: 300px;
-    margin: 0;
-}
-
-.dessert-item:hover {
-    background-color: #f8f8f8;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
-}
-
-</style>
 <body>
-    <header>
-        <div class="logo">
-            <img src="res.jpeg" alt="Restaurant Logo">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="administration.html">Administration</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="menu">
-        <h1>Our Menu</h1>
-
-        <!-- Dessert Section -->
-        <div class="menu-category">
-            <h2>Desserts</h2>
-            <div class="dessert-item">
-                <img src="ca.jpeg" alt="Chocolate Cake" class="dessert-image">
-                <div class="dessert-details">
-                    <h3>Chocolate Cake</h3>
-                    <p>A rich and moist chocolate cake topped with creamy chocolate ganache.</p>
-                </div>
-            </div>
-            <div class="dessert-item">
-                <img src="d1.jpeg" alt="Cheesecake" class="dessert-image">
-                <div class="dessert-details">
-                    <h3>Cheesecake</h3>
-                    <p>A creamy, tangy cheesecake with a buttery graham cracker crust.</p>
-                </div>
-            </div>
-            <div class="dessert-item">
-                <img src="d3.jpeg" alt="Apple Pie" class="dessert-image">
-                <div class="dessert-details">
-                    <h3>Apple Pie</h3>
-                    <p>A classic dessert made with sweet apples and a flaky pie crust.</p>
-                </div>
-            </div>
-            <div class="dessert-item">
-                <img src="d4.jpeg" alt="Tiramisu" class="dessert-image">
-                <div class="dessert-details">
-                    <h3>Tiramisu</h3>
-                    <p>An Italian dessert made of layered coffee-soaked ladyfingers and mascarpone cheese.</p>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <footer>
-        <p>&copy; Harshitha</p>
-    </footer>
+  <header>
+    <h1>Our Menu</h1>
+    <nav>
+      <a href="index.html">About Me</a>
+      <a href="menu.html">Menu</a>
+      <a href="administration.html">Administration</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+  <main>
+    <img src="res.jpeg" alt="Menu Banner" class="menu-banner">
+    <h2>Delicious Dishes</h2>
+    <div class="menu-grid">
+      <div class="menu-item" onclick="showDetails('cake', 'images/ca.jpg')">
+        <img src="ca.jpeg" alt="cake">
+        <p>cake</p>
+      </div>
+      <div class="menu-item" onclick="showDetails('cheese cake', 'images/d1.jpg')">
+        <img src="d1.jpeg" alt="cheese cake">
+        <p>cheese cake</p>
+      </div>
+      <div class="menu-item" onclick="showDetails('apple pie', 'images/d3.jpg')">
+        <img src="d3.jpeg" alt="apple pie">
+        <p>apple pie</p>
+      </div>
+      <div class="menu-item" onclick="showDetails('tiramisu', 'images/d4.jpg')">
+        <img src="d4.jpeg" alt="tiramisu">
+        <p>tiramisu</p>
+      </div>
+    </div>
+    <div id="food-details" class="food-details">
+      <!-- Food details will display dynamically here -->
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2024 Harshitha</p>
+  </footer>
+  <script>
+    function showDetails(name, imgSrc) {
+      const details = document.getElementById('food-details');
+      details.innerHTML = `
+        <h3>${name}</h3>
+        <img src="${imgSrc}" alt="${name}" style="width:300px; height:auto; margin-top:10px;">
+      `;
+    }
+  </script>
 </body>
 </html>
 
@@ -444,144 +219,44 @@ about.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visves Restaurant</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    .menu-category {
-    margin-top: 40px;
-}
-
-.menu-category h2 {
-    font-size: 28px;
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.dessert-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.dessert-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
-    object-fit: cover;
-    margin-right: 20px;
-}
-
-.dessert-details h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.dessert-details p {
-    font-size: 16px;
-    color: #555;
-    max-width: 300px;
-    margin: 0;
-}
-
-.dessert-item:hover {
-    background-color: #f8f8f8;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
-}
-
-</style>
 <body>
-    <header>
-        <div class="logo">
-            <img src="about.jpeg" alt="Restaurant Logo">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="administration.html">Administration</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="about">
-        <h1>About Our Restaurant</h1>
-        <p>We are a family-owned restaurant serving the finest dishes from around the world. We strive to provide our customers with a memorable dining experience.</p>
+  <header>
+    <h1>Harshitha Restaurant</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="administration.html">Our Team</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Welcome to Harshitha Restaurant</h2>
+      <img src="about.jpeg" alt="Restaurant Image" class="about-image">
+      <p>Located in the heart of Chennai, Visves Restaurant offers a memorable dining experience with a focus on high-quality food and exceptional service. Our mission is to provide a wide variety of delicious dishes made from fresh, locally sourced ingredients in a warm and inviting atmosphere.</p>
+      <p>Whether it's a casual meal or a special occasion, we have something for everyone!</p>
     </section>
-
-    <footer>
-        <p>&copy; 2024 Harshitha</p>
-    </footer>
+  </main>
+  <footer>
+    <p>&copy; 2024 Harshitha</p>
+  </footer>
 </body>
 </html>
 
-style.css
 
-/* Dessert Section Styles */
-.menu-category {
-    margin-top: 40px;
-}
 
-.menu-category h2 {
-    font-size: 28px;
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-}
 
-.dessert-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.dessert-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
-    object-fit: cover;
-    margin-right: 20px;
-}
-
-.dessert-details h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.dessert-details p {
-    font-size: 16px;
-    color: #555;
-    max-width: 300px;
-    margin: 0;
-}
-
-.dessert-item:hover {
-    background-color: #f8f8f8;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
-}
 ```
 ## OUTPUT:
-![alt text](<harshu/resapp/static/Screenshot (93).png>)
-![alt text](<Screenshot (99).png>)
-![alt text](<harshu/resapp/static/Screenshot (95).png>)
-![alt text](<harshu/resapp/static/Screenshot (96).png>)
-![alt text](<harshu/resapp/static/Screenshot (97).png>)
+![alt text](<harshu/resapp/static/Screenshot (100).png>)
+![alt text](<harshu/resapp/static/Screenshot (101).png>)
+![alt text](<harshu/resapp/static/Screenshot (102).png>)
+![alt text](<harshu/resapp/static/Screenshot (105).png>)
+![alt text](<harshu/resapp/static/Screenshot (104).png>)
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
